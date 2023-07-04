@@ -1,0 +1,50 @@
+//- Email template adapted from https://github.com/leemunroe/responsive-html-email-template
+//- Converted from HTML using https://html2pug.now.sh/
+
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title= subject
+
+    include _style
+  body
+    //- img(src='https://kycdocumentsuploads.s3.us-east-2.amazonaws.com/default.jpg')
+    table.body(role='presentation', border='0', cellpadding='0', cellspacing='0')
+      tbody
+        tr
+          td
+          td.container
+            .content
+              // START CENTERED WHITE CONTAINER
+              table.main(role='presentation')
+
+                // START MAIN AREA
+                tbody
+                  tr
+                    td.wrapper
+                      table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+                        tbody
+                          tr
+                            td
+                              // CONTENT
+                              img(src='https://kycdocumentsuploads.s3.us-east-2.amazonaws.com/eLogo.jpg' alt='' style='height: 50px; width: 50px; margin-bottom: 50px;')
+                              //- img(src='/assets/logo.png' alt='' style='height: 50px; width: 50px; margin-bottom: 50px;')
+                              block content
+
+              // START FOOTER
+              .footer(style="background-image: url('https://kycdocumentsuploads.s3.us-east-2.amazonaws.com/logo.png');")
+                table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+                  tbody
+                    tr
+                      td.content-block
+                        //- a(href='https://www.hettysphere.com') https://www.hettysphere.com
+                        span.apple-link Address Placeholder.
+                        //- br
+                        //- span
+                        //-   a(href='https://www.hettysphere.com') https://www.hettysphere.com
+                        //- br
+                        //- |  Don't like these emails? 
+                        //- a(href='#') Unsubscribe
+          //- td  
