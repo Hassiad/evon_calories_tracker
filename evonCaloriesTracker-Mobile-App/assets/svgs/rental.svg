@@ -1,0 +1,10 @@
+<svg id="_003-chat" data-name="003-chat" xmlns="http://www.w3.org/2000/svg" width="86.669" height="86.347" viewBox="0 0 86.669 86.347">
+  <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+    <g id="Group_8" data-name="Group 8">
+      <path id="Path_10" data-name="Path 10" d="M72.207.09H14.467A14.51,14.51,0,0,0,0,14.557V52.493A14.51,14.51,0,0,0,14.467,66.96H27.844V86.437L51.956,66.96H72.2A14.511,14.511,0,0,0,86.669,52.493V14.557A14.5,14.5,0,0,0,72.207.09Zm5.425,52.4a5.5,5.5,0,0,1-5.425,5.425H48.759l-2.487,2.007-9.388,7.583V57.913H14.467a5.5,5.5,0,0,1-5.425-5.425V14.557a5.5,5.5,0,0,1,5.425-5.425h57.74a5.5,5.5,0,0,1,5.425,5.425V52.491Z" transform="translate(0 -0.09)" fill="#8e96af"/>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="5.268" cy="5.268" rx="5.268" ry="5.268" transform="translate(19.52 28.17)" fill="#8e96af"/>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="5.268" cy="5.268" rx="5.268" ry="5.268" transform="translate(38.069 28.17)" fill="#8e96af"/>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="5.268" cy="5.268" rx="5.268" ry="5.268" transform="translate(56.617 28.17)" fill="#8e96af"/>
+    </g>
+  </g>
+</svg>
